@@ -1,9 +1,9 @@
 <!-- add notes https://www.youtube.com/watch?v=1l1snJZi9UU 
 goal to add levels, each level being different premier league club-->
 
-<img id = "invader" src = "Img/invader.png" style ="display: none;">
-<img id = "cannon" src = "Img/cannon.png" style = "display: none;">
-<canvas id="canvas" width="500" height="600">
+<img id = "invader" src = "Img/MUFC.png" style ="display: none;">
+<img id = "cannon" src = "Img/LFC.png" style = "display: none;">
+<canvas id="canvas" width="600" height="700">
 <script>
 let interval
 let ctx = document.getElementById("canvas").getContext("2d")
@@ -91,7 +91,7 @@ function game () {
     move()
     draw()
     if (isGameOver()){
-        alert("Game over")
+        alert("By them? really?")
         clearInterval(interval)
     }
 }
